@@ -10,12 +10,104 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <nav>
-      <ul class="flex justify-evenly">
-        <li>Home</li>
-        <li>Project</li>
-        <li>Contact</li>
-      </ul>
+    <nav class="bg-deepBlue">
+      <div
+        class="relative w-[1080px] mx-auto flex items-center justify-between"
+      >
+        <!--Logo-->
+        <a href="/" class="cursor-pointer py-7 pr-7">
+          <img src="./images/logo.svg" alt="" width="125px" height="30px" />
+        </a>
+
+        <!--Nav Items-->
+        <ul class="flex gap-6">
+          <!--Payments-->
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Payments</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"
+            ></div>
+          </li>
+          <!--Banking-->
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Banking</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"
+            ></div>
+          </li>
+          <!--Corporate Card-->
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Corporate Card</a>
+          </li>
+          <!--Payroll-->
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Payroll</a>
+          </li>
+          <!--Resources-->
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Resources</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"
+            ></div>
+          </li>
+          <!--Support-->
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Support</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"
+            ></div>
+          </li>
+          <!--Priccing-->
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Pricing</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"
+            ></div>
+          </li>
+        </ul>
+
+        <!--Buttons-->
+        <div class="flex space-x-6">
+          <img
+            src="./images/india-flag.svg"
+            alt=""
+            width="28px"
+            height="20px"
+          />
+
+          <button
+            class="py-3 px-5 font-mullish text-white border-lightBlue border rounded text-sm font-bold"
+          >
+            Log in
+          </button>
+
+          <button
+            class="py-3 px-5 font-mullish text-sm font-bold bg-white rounded text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500"
+          >
+            Sign Up <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
     </nav>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/0496440cc3.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
